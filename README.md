@@ -98,15 +98,6 @@ Learning:
 - Arduino
 - IoT
 - Embedded Systems
-  ---
-  ## Hardware Setup
-
-![Setup 1](<img width="1200" height="1600" alt="WhatsApp Image 2026-07-24 at 13 29 45 (1)" src="https://github.com/user-attachments/assets/47770e03-37fc-466f-8dac-ed6b7f7c61bf" />
-)
-
-![Setup 2](images/setup2.jpg)
-
-![Setup 3](images/setup3.jpg)
-
+  
 GitHub:
 https://github.com/Timuchin-sezgin
