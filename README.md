@@ -43,11 +43,14 @@ Baud Rate:
 ```
 ## Hardware Setup
 
-![Setup 1](images/setup1.jpg)
+![Setup 1](<img width="1200" height="1600" alt="WhatsApp Image 2026-07-24 at 13 29 45 (1)" src="https://github.com/user-attachments/assets/aad8e9a6-e00c-4b28-bc97-805639ebbcdc" />
+)
 
-![Setup 2](images/setup2.jpg)
+![Setup 2](<img width="1200" height="1600" alt="WhatsApp Image 2026-07-24 at 13 29 45 (2)" src="https://github.com/user-attachments/assets/6c7b4775-e6c8-42cf-af3e-abe303da64b2" />
+)
 
-![Setup 3](images/setup3.jpg)
+![Setup 3](<img width="1200" height="1600" alt="WhatsApp Image 2026-07-24 at 13 29 45" src="https://github.com/user-attachments/assets/e0ef56f2-8a65-456b-9086-9507bd38bd19" />
+)
 
 ---
 
