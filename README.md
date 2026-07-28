@@ -7,8 +7,7 @@ The system measures the distance between the radar sensor and the waste, calcula
 ---
 
 # 📸 Project Preview
-
-> 🚧 Photos of the hardware and dashboard will be added soon.
+> <img width="900" height="677" alt="image" src="https://github.com/user-attachments/assets/babf52ec-4eb7-41bd-89b5-e32868e623e0" />
 
 ---
 
