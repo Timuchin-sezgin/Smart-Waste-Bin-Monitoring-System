@@ -1,91 +1,172 @@
-# Smart-Waste-Bin-Monitoring-System
-IoT waste bin monitoring system using ESP32 and HLK-LD2410B radar.
-# Smart Presence Detection System using ESP32 + HLK-LD2410B
+# 🗑 Smart Waste Bin Monitoring System
 
-A simple IoT project that uses an ESP32 and the Hi-Link LD2410B 24GHz radar sensor to detect people and display live data in a web browser.
+An IoT-based Smart Waste Bin Monitoring System built with **ESP32** and **HLK-LD2410B Radar Sensor**.
 
----
-
-## Features
-
-- 📡 Human presence detection
-- 🚶 Motion detection
-- 🧍 Stationary target detection
-- 📏 Distance measurement (cm)
-- 🌐 Built-in web interface
-- 📱 Works from any phone connected to the same Wi-Fi
-- 🔄 Live auto-refresh
+The system measures the distance between the radar sensor and the waste, calculates the fill level, determines the bin status, and displays all information on a built-in web dashboard.
 
 ---
 
-## Hardware
+# 📸 Project Preview
+
+> 🚧 Photos of the hardware and dashboard will be added soon.
+
+---
+
+# ✨ Current Features
+
+- 📡 HLK-LD2410B Radar integration
+- 📏 Distance measurement
+- 📊 Automatic fill percentage calculation
+- 🗑 Smart bin status detection
+- 🌐 Built-in Web Dashboard
+- 🧠 Moving Average Filter for stable measurements
+- ⚡ Modular project architecture
+- 🔧 Easy to extend
+
+---
+
+# 🧠 Smart Logic
+
+The system automatically classifies the waste level.
+
+| Fill Level | Status |
+|------------|---------|
+| 0–24% | 🟢 Empty |
+| 25–49% | 🟡 Half Full |
+| 50–79% | 🟠 Almost Full |
+| 80–100% | 🔴 Full |
+
+---
+
+# 🖥 Web Dashboard
+
+The ESP32 hosts its own web server.
+
+The dashboard displays:
+
+- 📏 Distance
+- 📊 Fill Percentage
+- 🗑 Bin Status
+- 📡 Radar Status
+
+The data updates automatically without refreshing the page.
+
+---
+
+# 🔧 Hardware
 
 - ESP32 DevKit V1
-- Hi-Link LD2410B 24GHz Radar
-- USB Cable
-- Jumper wires
+- HLK-LD2410B Radar Sensor
+- TP4056 Charging Module
+- 18650 Li-ion Battery
+- MT3608 Boost Converter
+- SX1278 LoRa Module *(coming soon)*
 
 ---
 
-## Wiring
-
-| LD2410B | ESP32 |
-|---------|--------|
-| VCC | 5V |
-| GND | GND |
-| TX | GPIO16 (RX2) |
-| RX | GPIO17 (TX2) |
-
-Baud Rate:
+# 📂 Project Structure
 
 ```
-256000
+firmware/
+│
+├── smart_waste_bin.ino
+├── config.h
+├── radar.cpp
+├── radar.h
+├── filter.cpp
+├── filter.h
+├── smart_logic.cpp
+├── smart_logic.h
+├── web.cpp
+└── web.h
 ```
-
-## What the website shows
-
-- Target Status
-- Motion Distance
-- Motion Energy
-- Stationary Distance
-- Stationary Energy
-- Detection Distance
-
-The values update automatically every second.
 
 ---
 
-## Technologies
+# ⚙ Technologies
 
 - ESP32
 - Arduino IDE
 - C++
-- Wi-Fi
 - HTML
 - CSS
 - JavaScript
-- UART Communication
+- Git
+- GitHub
+- IoT
 
 ---
 
-## Future Improvements
+# 🚀 Roadmap
 
-- Telegram notifications
-- LoRa communication
-- Battery power
-- Cloud database
-- Mobile App
-- Smart Waste Bin Monitoring integration
+## ✅ Version 1.0
 
----
-
-## Project Photos
-
-*(Upload the photos here later.)*
+- Radar Reading
+- Fill Percentage
+- Bin Status
+- Web Dashboard
 
 ---
 
-## Author
+## 🔄 Version 2.0
+
+- Better Filtering
+- Cleaner Code Structure
+- Faster Web Dashboard
+- Improved Smart Logic
+
+---
+
+## 🚧 Version 3.0
+
+- 📡 LoRa Communication
+- 🤖 Telegram Notifications
+- 🔋 Battery Monitoring
+- ⚙ EEPROM Settings
+- 📈 Data Logging
+
+---
+
+## 🌍 Future Goals
+
+- Mobile Application
+- Cloud Dashboard
+- Solar Powered System
+- GPS Integration
+- AI Prediction
+- Multiple Smart Bins
+- City Waste Monitoring Network
+
+---
+
+# 🎯 Project Goal
+
+The goal of this project is to reduce unnecessary garbage truck trips by providing real-time information about waste bin fill levels.
+
+This can reduce:
+
+- Fuel consumption
+- Traffic
+- CO₂ emissions
+- Waste collection costs
+
+---
+
+# 📚 Learning Goals
+
+This project helps me improve my skills in:
+
+- Embedded Systems
+- IoT
+- ESP32 Programming
+- C++
+- Git & GitHub
+- Web Development
+- Electronics
+
+---
+
+# 👨‍💻 Author
 
 **Timuchin Sezgin**
 
@@ -93,11 +174,17 @@ Student from Kazakhstan 🇰🇿
 
 Learning:
 
-- C++
+- IoT
 - ESP32
 - Arduino
-- IoT
+- C++
+- Python
 - Embedded Systems
-  
-GitHub:
-https://github.com/Timuchin-sezgin
+
+---
+
+# ⭐ Support
+
+If you like this project, consider giving it a ⭐ on GitHub.
+
+Thank you for visiting!
