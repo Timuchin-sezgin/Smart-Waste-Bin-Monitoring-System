@@ -178,7 +178,6 @@ Learning:
 - ESP32
 - Arduino
 - C++
-- Python
 - Embedded Systems
 
 ---
