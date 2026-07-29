@@ -1,8 +1,8 @@
 #ifndef CONFIG_H
 #define CONFIG_H
 
-constexpr const char* WIFI_SSID = "Maritime Aid";
-constexpr const char* WIFI_PASSWORD = "87775990666";
+constexpr const char* WIFI_SSID = "your wifi name";
+constexpr const char* WIFI_PASSWORD = "your wifi pasword";
 
 #define RADAR_RX 16
 #define RADAR_TX 17
